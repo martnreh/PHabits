@@ -16,7 +16,7 @@
 
 - **Ruby Version:** 3.2.0 (2022-12-25 revision a528908271) [x86_64-darwin23]
 - **Rails Version:** 7.0.8.4
-- **Styling:**
+- **Styling:** Tailwind CSS
 
 ## Personal Reflection
 
