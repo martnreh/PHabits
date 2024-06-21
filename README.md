@@ -12,6 +12,12 @@ Phabits is built using Ruby on Rails for the backend and integrates a frontend f
 - **Habit Formation:** Monitor the development of positive habits over time.
 - **User-friendly Interface:** Easy navigation and interaction with the application.
 
+### Development Environment
+
+- **Ruby Version:** 3.2.0 (2022-12-25 revision a528908271) [x86_64-darwin23]
+- **Rails Version:** 7.0.8.4
+- **Styling:**
+
 ## Personal Reflection
 
 Learning Ruby on Rails was challenging but surprisingly easy to get into. The framework's conventions and tools made it straightforward to pick up and productive to use quickly. The project also highlighted the importance of user experience. Developing a habit tracker required the app to be both functional and engaging. I focused on creating an intuitive interface and an enjoyable overall experience for users.
