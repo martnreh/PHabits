@@ -1,10 +1,10 @@
 # +Habits
 
-Phabits is an application designed to track and strengthen positive habits. The application allows users to log activities, track their progress, and develop positive habits over time.
++Habits is an application designed to track and strengthen positive habits. The application allows users to log activities, track their progress, and develop positive habits over time.
 
 ## Overview
 
-Phabits is built using Ruby on Rails for the backend and integrates a frontend framework to provide an intuitive user interface. Users can create, view, and delete activity logs and types, making it easy to manage their habits and monitor progress.
++Habits is built using Ruby on Rails for the backend and integrates a frontend framework to provide an intuitive user interface. Users can create, view, and delete activity logs and types, making it easy to manage their habits and monitor progress.
 
 ### Key Features
 
