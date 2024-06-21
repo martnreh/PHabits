@@ -14,7 +14,7 @@
 
     <div>
       <%= form.label :activity_type_id, 'Activity Type', class: "block text-sm font-medium text-gray-700" %>
-      <%= form.collection_select :activity_type_id, @activity_types, :id, :name, {}, class: "mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
+      <%= form.collection_select :activity_type_id, @activity_types, :id, :name, { prompt: 'Select an Activity Type' }, class: "mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
     </div>
     <div>
       <%= form.label :date, class: "block text-sm font-medium text-gray-700" %>
@@ -22,11 +22,10 @@
     </div>
     <div>
       <%= form.label :duration, class: "block text-sm font-medium text-gray-700" %>
-     <div class="flex items-center mt-1">
-      <%= form.number_field :duration, min: 1, class: "block w-50 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
-      <span class="ml-2 text-sm text-gray-700">minutes</span>
-    </div>
-
+      <div class="flex items-center mt-1">
+        <%= form.number_field :duration, min: 1, class: "block w-50 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
+        <span class="ml-2 text-sm text-gray-700">minutes</span>
+      </div>
     </div>
     <div>
       <%= form.label :notes, class: "block text-sm font-medium text-gray-700" %>
@@ -34,10 +33,9 @@
     </div>
 
     <br>
-     <div class='flex justify-between'>
-        <%= link_to '<- Back', activity_logs_path, class: "bg-slate-400 text-white py-2 px-4 rounded mt-4 inline-block" %>
-        <%= form.submit '+ New Activity', class: "bg-gray-700 text-white py-2 px-4 rounded" %>
+    <div class='flex justify-between'>
+      <%= link_to '<- Back', activity_logs_path, class: "bg-slate-400 text-white py-2 px-4 rounded mt-4 inline-block" %>
+      <%= form.submit '+ New Activity', class: "bg-gray-700 text-white py-2 px-4 rounded" %>
     </div>
   <% end %>
-
 </div>

@@ -1,4 +1,5 @@
 class ActivityLogsController < ApplicationController
+  
   def index
     @activity_logs = ActivityLog.includes(:activity_type).order(created_at: :desc)
   end

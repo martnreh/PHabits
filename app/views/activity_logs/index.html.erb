@@ -25,7 +25,8 @@
             <td class="py-2 px-4 border-b border-gray-300 text-left"><%= activity_log.notes %></td>
             <td class="py-2 px-4 border-b border-gray-300 text-left">
               <div class="flex justify-left">
-                <%= link_to 'Delete', activity_log_path(activity_log), method: :delete, data: { confirm: 'Are you sure?' }, class: "bg-rose-800	text-white py-1 px-3 rounded" %>
+                <%= button_to 'Delete', activity_log_path(activity_log), method: :delete, data: { confirm: 'Are you sure?' }, class: "bg-rose-800 text-white py-1 px-3 rounded" %>
+
               </div>
             </td>
           </tr>
