@@ -1,4 +1,4 @@
-# Phabits
+# +Habits
 
 Phabits is an application designed to track and strengthen positive habits. The application allows users to log activities, track their progress, and develop positive habits over time.
 
