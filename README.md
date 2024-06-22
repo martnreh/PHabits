@@ -7,6 +7,9 @@
 - **Render PostgreSQL Database:** Render PostgreSQL Database
 - **Render Web Service:** [https://phabits.onrender.com](#)
 
+<img width="1382" alt="Captura de pantalla 2024-06-21 a la(s) 6 39 25 p m" src="https://github.com/martnreh/PHabits/assets/70775459/674bfc84-b3e6-444a-b47a-1a37e5e7608b">
+
+
 
 ## Overview
 
